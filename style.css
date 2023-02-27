@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .moreinfo {
     float: right;
     margin-right: 90px;
@@ -51,6 +56,7 @@ strong {
 
 .parttwo div:hover {
     background-color: aqua;
+    cursor: pointer;
 }
 
 .flex-container {
@@ -97,6 +103,11 @@ div.flex-item211 {
     line-height: 45px;
 }
 
+div.flex-item211:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+
 div.flex-item212 {
     height: 45px;
     width: 100%;
@@ -111,6 +122,11 @@ div.flex-item212 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     line-height: 45px;
+}
+
+div.flex-item212:hover {
+    cursor: pointer;
+    background-color: aqua;
 }
 
 .flex-item22 {
@@ -617,3 +633,34 @@ p.e-ISA {
     line-height: 39px;
     margin: 0px;
 } 
+
+footer {
+    text-align: center;
+    height: 50px;
+    margin: 0;
+    padding: 20px;
+    background-color: blueviolet;
+}
+
+.footer_links {
+    display: flex;
+    justify-content: space-evenly;
+    height: 110%;
+    width: 50%;
+    margin-left: 25%;
+    font-size: larger;
+}
+
+i {
+    color: rgb(34, 8, 58);
+}
+
+i:hover {
+    cursor: pointer;
+}
+
+.copyright {
+    margin-top: -15px;
+    font-family: cursive;
+    letter-spacing: 10px;
+}
